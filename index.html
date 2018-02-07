@@ -5,11 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Encuéntrame</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
-  <body>
-
+  <body class="bg-light">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <a class="navbar-brand text-warning font-weight-bold" href="#">Bicycle Nets</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link text-light active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link text-light" href="#">Features</a>
+            <a class="nav-item nav-link text-light" href="#">Pricing</a>
+            <a class="nav-item nav-link text-light disabled" href="#">Disabled</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container-fluid">
+      <div class="my-4 mx-4">
+        <h1>Encuentra la ruta más corta!!!</h1>
+        <p>Esta aplicación tiene la funcionalidad de asignar un primer punto (punto de partida) y otro punto (punto de llegada), para luego trazar la ruta entre los puntos ya asignados. Además, detecta tu ubicación con el botón ¡Encuéntrame!</p>
+        <hr class="my-4">
+      </div>
+      <form class="my-4 mx-4 row">
+        <div class="col-12 col-md-6">
+          <div class="form-group row">
+            <label for="inputPassword" class="col-2 col-sm-1 col-md-2 col-lg-1 col-form-label"><i class="fas fa-bullseye fa-lg text-success"></i></label>
+            <div class="col-10 col-sm-11 col-md-10 col-lg-11">
+              <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputPassword" class="col-2 col-sm-1 col-md-2 col-lg-1 col-form-label"><i class="fas fa-location-arrow fa-lg text-success"></i></label>
+            <div class="col-10 col-sm-11 col-md-10 col-lg-11">
+              <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center col-12 col-md-2">
+          <div class="row">
+            <button type="submit" class="btn btn-success mx-1 my-1 col col-md-12">Ruta</button>
+            <button type="submit" class="btn btn-success mx-1 my-1 col col-md-12">Encuéntrame</button>
+          </div>
+        </div>
+        <div class="d-none d-sm-none d-md-block col-md-4">
+          Descripción
+        </div>
+      </form>
+      <div id="map"></div>
+    </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
     <script src="lib/index.js"></script>
