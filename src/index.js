@@ -1,9 +1,8 @@
-
 let bikeMarker;
 
 function initMap() {
-  var directionsService = new google.maps.DirectionsService;
-  var directionsDisplay = new google.maps.DirectionsRenderer;
+  let directionsService = new google.maps.DirectionsService;
+  let directionsDisplay = new google.maps.DirectionsRenderer;
   let location = {lat: -10.0000000,
     lng: -76.0000000};
   let map = new google.maps.Map(document.getElementById('map'), {
@@ -76,7 +75,7 @@ let calculateAndDisplayRoute = (directionsService, directionsDisplay) => {
     } else {
       window.alert('Estamos teniendo inconvenientes para encontrar su ubicación');
     }
-    document.querySelector('.description-js').innerHTML = 'Punto de origen :' + document.getElementById('start-point').value + '<br>' + 'Punto de llegada :' + document.getElementById('final-point').value ;
+    document.querySelector('.description-js').innerHTML = 'Punto de origen: ' + document.getElementById('start-point').value + '<br>' + 'Punto de llegada: ' + document.getElementById('final-point').value ;
     document.getElementById('start-point').value = '';
     document.getElementById('final-point').value = '';
   });
@@ -90,5 +89,3 @@ function toggleBounce() {
     bikeMarker.setAnimation(google.maps.Animation.BOUNCE);
   }
 };
-
-

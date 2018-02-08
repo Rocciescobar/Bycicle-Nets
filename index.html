@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Encuéntrame</title>
+    <title>EASY-VRECO</title>
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
     <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="icon" href="assets/images/bike.png">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body class="bg-light">
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-success">
-        <a class="navbar-brand text-warning font-weight-bold" href="#">Bicycle Nets</a>
+        <a class="navbar-brand text-warning font-brand" href="#">Bicycle Nets <i class="fas fa-lg fa-bicycle"></i></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,7 +33,7 @@
         <p>Esta aplicación tiene la funcionalidad de asignar un primer punto (punto de partida) y otro punto (punto de llegada), para luego trazar la ruta entre los puntos ya asignados. Además, detecta tu ubicación con el botón ¡Encuéntrame!</p>
         <hr class="my-4">
       </div>
-      <form class="my-4 mx-4 row">
+      <form class="my-4 mx-4 row d-flex align-items-center">
         <div class="col-12 col-md-6">
           <div class="form-group row">
             <label for="inputEmail3" class="col-2 col-sm-1 col-md-2 col-lg-1 col-form-label"><i class="fas fa-bullseye fa-lg text-success"></i></label>
@@ -52,8 +54,13 @@
             <button type="button" id="findMe" class="btn btn-success mx-1 my-1 col col-md-12">Encuéntrame</button>
           </div>
         </div>
-        <div class="d-none d-sm-none d-md-block col-md-4 description-js">
-          Descripción
+        <div class="d-none d-sm-none d-md-block col-md-4 ">
+          <div class="card border-success" style="width: 18rem;">
+            <div class="card-body">
+              <h6 class="card-title">Tu ruta es:</h6>
+              <p class="card-text description-js"></p>
+            </div>
+          </div>
         </div>
       </form>
       <div id="map"></div>
