@@ -51,10 +51,15 @@ El proyecto presenta los siguientes archivos para uso del usuario:
 * `package.json` con nombre, versión, descripción, autores, licencia, dependencias, scripts.
 
 ## Imagenes del proyecto :
+* Vista principal del proyecto :
+![Con titulo](assets/docs/vista-desktop.png "titulo")
 
+* Trazado de rutas :
+![Con titulo](assets/docs/trazado-rutas.png "titulo")
 
-## Demo
-Para ver el demo dar click [aquí](https://manu160296.github.io/cardify/public/index.html "titulo").
+* Marcador personalizado:
+![Con titulo](assets/docs/marker.png "titulo")
+
 
 ## Autoras
 
