@@ -1,70 +1,8 @@
 # BYCICLE NETS
 
-* **Track:** _Common Core_
-* **Curso:** _Construye una single page app (SPA) multiusuario consumiendo data remota_
-* **Unidad:** _¿Qué hay de nuevo en HTLM5?_
+Bycicle Nets es una aplicación, en la cual podrás trazar una ruta, definiendo un lugar "A" hacia un lugar "B".  Además, el usuario tiene la posibilidad de encontrar su ubicación.
 
-***
+![bycile nets](https://user-images.githubusercontent.com/32296142/36374952-3e08a728-153b-11e8-9370-c3d2dec02e0c.png)
 
-## Introducción :
-Este proyecto consiste en implementar una página que traze la ruta de un lugar _"A"_ hacia un lugar _"B"_  en la que además el usuario tenga la posibilidad de encontrar su ubicación ; estos requerimientos deberán ser resueltos haciendo uso del _API Geolocation_ .
-## PLAN DE TRABAJO : 
-El proyecto se realizó en un día y para ello se propuso dividir el proyecto en una serie de etapas que se detallarán a continuación :
-
-#### ETAPA 1 : 
-* Dibujar el sketch del proyecto ( imagen adjunta al final de esta etapa).
-* Elección de colores y tipografías.
-* Elección del nombre del proyecto ("Bycicle Nets")
-* Crear issues y milestones que sirvan como hoja de ruta (roadmap).
-
-![Con titulo](assets/docs/sketch1.jpeg "titulo")
-
-#### ETAPA 2 :
-
-* Inicializar proyecto con `npm init` y `git init`.
-* Agregar transpilador BABEL .
-* Añadiendo frameworks necesarios 
-* Obteniendo clave del API.
-* Inicializando mapa.
-* Primera versión README.
-
-### ETAPA 3 :
-* Maquetación.
-* Primera parte de la funcionalidad (Boton para saber la localizacion del usuario)
-* Añadiendo marcador / Geolocalización.
-
-### ETAPA 4 :
-
-* Segunda Parte funcionalidad (Autocompletado);
-* Tercera parte Funcionalidad (Trazado de rutas);
-* Publicación de la página en gh-pages.
-* Versión final README.
-
-## Archivos importantes
-
-El proyecto presenta los siguientes archivos para uso del usuario:
-
-* `README.md` con descripción del proyecto, imagenes del mismo y organización del equipo.
-* `index.html`: Página principal del proyecto.
-* `index.css`: Archivo css que contiene los estilos del proyecto.
-* `src/index.js`: Contiene toda la funcionalidad del proyecto (ES6).
-* `package.json` con nombre, versión, descripción, autores, licencia, dependencias, scripts.
-
-## Imagenes del proyecto :
-* Vista principal del proyecto :
-![Con titulo](assets/docs/vista-desktop.png "titulo")
-
-* Trazado de rutas :
-![Con titulo](assets/docs/trazado-rutas.png "titulo")
-
-* Marcador personalizado:
-![Con titulo](assets/docs/marker.png "titulo")
-
-
-## Autoras
-
-* Rocci Escobar Nuñez [Cuenta GitHub](https://github.com/Rocciescobar "titulo")
-* Manuela Flores Vilchez [Cuenta GitHub ](https://github.com/Manu160296 "titulo")
-
-
-
+## Desarrollado para 
+[Laboratoria](http://www.laboratoria.la/)
