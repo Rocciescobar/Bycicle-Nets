@@ -4,7 +4,7 @@
   "description": "Práctica con geolocation: bicycle-nets",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "babel src -d public/js"
   },
   "keywords": [
     "geolocation"
